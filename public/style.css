@@ -1,7 +1,59 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
 }
 
-h1 {
-    color: #333;
+.container {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center cards horizontally */
+    max-width: 800px; /* Max width for container */
+    margin: 0 auto; /* Center the container */
+}
+
+.card {
+    background-color: white; /* Card background color */
+    padding: 20px; /* Padding inside the card */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    margin-bottom: 20px; /* Spacing between cards */
+    text-align: center; /* Center-align text and form elements */
+    width: 100%; /* Full width for card */
+    max-width: 500px; /* Max width for card */
+}
+
+h1, h2 {
+    margin: 10px 0; /* Add some spacing to headers */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin: 10px 0 5px; /* Spacing around labels */
+}
+
+input, select {
+    width: 100%; /* Full width for inputs and select */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 10px; /* Spacing below inputs */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.finance{
+    text-decoration: underline;
 }
