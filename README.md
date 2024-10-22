@@ -19,7 +19,7 @@ This project is a simple RESTful API for managing personal financial records (in
 ## Project Structure
 
 ```bash
-financial-tracker-api/
+financial-tracker
 ├── controllers/
 ├── models/
 ├── routes/
